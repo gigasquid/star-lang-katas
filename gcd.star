@@ -7,7 +7,6 @@ worksheet{
  http://en.wikipedia.org/wiki/Greatest_common_divisor
 **/
 
-  gcd has type (integer, integer) => integer
   gcd(a,0) is a
   gcd(0,b) is b
   gcd(a,b) where a = b is a
