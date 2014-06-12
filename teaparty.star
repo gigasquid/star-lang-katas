@@ -11,14 +11,13 @@ The return string should be Welcome (the title) (last name)"
 
 worksheet{
 
-  welcome has type (string, boolean, boolean) => string
-  welcome(s,true,_) is "Welcome Ms. " ++ s
-  welcome(s,false,false) is "Welcome Mr. " ++ s
-  welcome(s,false,true) is "Welcome Sir " ++ s
+show "Tea is tasty"
 
+/**
   assert welcome("Austen", true, false) = "Welcome Ms. Austen"
   assert welcome("Orwell", false, false) = "Welcome Mr. Orwell"
   assert welcome("Newton", false, true) = "Welcome Sir Newton"
+**/
 
 }
 
